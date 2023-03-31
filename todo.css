@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.whole{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+body{
+    background: rgba(130, 12, 12, 0.34);
+}
+header{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+form{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 10px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: rgba(174, 144, 149, 0.778);
+}
+form p{
+    font-size: small;
+    color: red;
+    padding-left: 5px;
+}
+.task, .myTask{
+    width: 80%;
+    border: none;
+    padding: 10px;
+    background: none;
+}
+ .task:focus, .myTask:focus{
+    outline:none;
+    border-bottom: 2px solid black;
+} 
+.submit{
+    position: absolute;
+    right: 10px;
+    border: none;
+    padding: 3px 10px;
+    color: brown;
+    text-align: center;
+    font-size: medium;
+    background-color: rgba(174, 144, 149, 0.778);
+}
+.item{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 100%;
+}
+.itemHeading{
+    margin-top: 2%;
+}
+.item p{
+    margin-top: 5%;
+    color: grey;
+}
+.taskList{
+    display: flex;
+    margin-top: 2%;
+    padding:10px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: rgba(174, 144, 149, 0.778);
+}
+.edit, .delete{
+    border: none;
+    padding: 3px 10px;
+    color: brown;
+    text-align: center;
+    font-size: medium;
+    background-color: rgba(174, 144, 149, 0.778);
+    font-size: medium;
+    background: none;   
+}
+.edit:hover, .delete:hover, .submit:hover{
+    border: 2px solid brown;
+}
